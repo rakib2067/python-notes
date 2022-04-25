@@ -43,3 +43,12 @@ test_dict['Python_Skill'] = 4
 
 print(test_dict['name'])
 print(test_dict)
+
+test_dict['languages'] = ('Java', 'Javascript', 'C#')
+print(test_dict)
+
+fav_foods = {'Burgers', 'Loaded Fries', 'Fried Chicken'}
+
+print(fav_foods)
+
+print(f'There are {len(fav_foods)} items in my set')
